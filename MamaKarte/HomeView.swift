@@ -15,7 +15,10 @@ struct HomeView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
-        .padding()
+            .padding()
+        
+        
+        // pre-commit test
     }
 }
 
