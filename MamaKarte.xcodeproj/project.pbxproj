@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D4014A82AD12F2900695C2C /* MamaKarteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4014A72AD12F2900695C2C /* MamaKarteApp.swift */; };
+		6D4014AA2AD12F2900695C2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4014A92AD12F2900695C2C /* ContentView.swift */; };
+		6D4014AC2AD12F2900695C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4014AB2AD12F2900695C2C /* Assets.xcassets */; };
+		6D4014AF2AD12F2900695C2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4014AE2AD12F2900695C2C /* Preview Assets.xcassets */; };
+		6D4014B92AD12F2900695C2C /* MamaKarteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4014B82AD12F2900695C2C /* MamaKarteTests.swift */; };
+		6D4014C32AD12F2900695C2C /* MamaKarteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4014C22AD12F2900695C2C /* MamaKarteUITests.swift */; };
+		6D4014C52AD12F2900695C2C /* MamaKarteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4014C42AD12F2900695C2C /* MamaKarteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D4014B52AD12F2900695C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D40149C2AD12F2900695C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D4014A32AD12F2900695C2C;
+			remoteInfo = MamaKarte;
+		};
+		6D4014BF2AD12F2900695C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D40149C2AD12F2900695C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D4014A32AD12F2900695C2C;
+			remoteInfo = MamaKarte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D4014A42AD12F2900695C2C /* MamaKarte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamaKarte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4014A72AD12F2900695C2C /* MamaKarteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamaKarteApp.swift; sourceTree = "<group>"; };
+		6D4014A92AD12F2900695C2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6D4014AB2AD12F2900695C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D4014AE2AD12F2900695C2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D4014B42AD12F2900695C2C /* MamaKarteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamaKarteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4014B82AD12F2900695C2C /* MamaKarteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamaKarteTests.swift; sourceTree = "<group>"; };
+		6D4014BE2AD12F2900695C2C /* MamaKarteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamaKarteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4014C22AD12F2900695C2C /* MamaKarteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamaKarteUITests.swift; sourceTree = "<group>"; };
+		6D4014C42AD12F2900695C2C /* MamaKarteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamaKarteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D4014A12AD12F2900695C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4014B12AD12F2900695C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4014BB2AD12F2900695C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D40149B2AD12F2900695C2C = {
+			isa = PBXGroup;
+			children = (
+				6D4014A62AD12F2900695C2C /* MamaKarte */,
+				6D4014B72AD12F2900695C2C /* MamaKarteTests */,
+				6D4014C12AD12F2900695C2C /* MamaKarteUITests */,
+				6D4014A52AD12F2900695C2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D4014A52AD12F2900695C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D4014A42AD12F2900695C2C /* MamaKarte.app */,
+				6D4014B42AD12F2900695C2C /* MamaKarteTests.xctest */,
+				6D4014BE2AD12F2900695C2C /* MamaKarteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D4014A62AD12F2900695C2C /* MamaKarte */ = {
+			isa = PBXGroup;
+			children = (
+				6D4014A72AD12F2900695C2C /* MamaKarteApp.swift */,
+				6D4014A92AD12F2900695C2C /* ContentView.swift */,
+				6D4014AB2AD12F2900695C2C /* Assets.xcassets */,
+				6D4014AD2AD12F2900695C2C /* Preview Content */,
+			);
+			path = MamaKarte;
+			sourceTree = "<group>";
+		};
+		6D4014AD2AD12F2900695C2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6D4014AE2AD12F2900695C2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6D4014B72AD12F2900695C2C /* MamaKarteTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D4014B82AD12F2900695C2C /* MamaKarteTests.swift */,
+			);
+			path = MamaKarteTests;
+			sourceTree = "<group>";
+		};
+		6D4014C12AD12F2900695C2C /* MamaKarteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D4014C22AD12F2900695C2C /* MamaKarteUITests.swift */,
+				6D4014C42AD12F2900695C2C /* MamaKarteUITestsLaunchTests.swift */,
+			);
+			path = MamaKarteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D4014A32AD12F2900695C2C /* MamaKarte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4014C82AD12F2900695C2C /* Build configuration list for PBXNativeTarget "MamaKarte" */;
+			buildPhases = (
+				6D4014A02AD12F2900695C2C /* Sources */,
+				6D4014A12AD12F2900695C2C /* Frameworks */,
+				6D4014A22AD12F2900695C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MamaKarte;
+			productName = MamaKarte;
+			productReference = 6D4014A42AD12F2900695C2C /* MamaKarte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D4014B32AD12F2900695C2C /* MamaKarteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4014CB2AD12F2900695C2C /* Build configuration list for PBXNativeTarget "MamaKarteTests" */;
+			buildPhases = (
+				6D4014B02AD12F2900695C2C /* Sources */,
+				6D4014B12AD12F2900695C2C /* Frameworks */,
+				6D4014B22AD12F2900695C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D4014B62AD12F2900695C2C /* PBXTargetDependency */,
+			);
+			name = MamaKarteTests;
+			productName = MamaKarteTests;
+			productReference = 6D4014B42AD12F2900695C2C /* MamaKarteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D4014BD2AD12F2900695C2C /* MamaKarteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4014CE2AD12F2900695C2C /* Build configuration list for PBXNativeTarget "MamaKarteUITests" */;
+			buildPhases = (
+				6D4014BA2AD12F2900695C2C /* Sources */,
+				6D4014BB2AD12F2900695C2C /* Frameworks */,
+				6D4014BC2AD12F2900695C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D4014C02AD12F2900695C2C /* PBXTargetDependency */,
+			);
+			name = MamaKarteUITests;
+			productName = MamaKarteUITests;
+			productReference = 6D4014BE2AD12F2900695C2C /* MamaKarteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D40149C2AD12F2900695C2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6D4014A32AD12F2900695C2C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6D4014B32AD12F2900695C2C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6D4014A32AD12F2900695C2C;
+					};
+					6D4014BD2AD12F2900695C2C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6D4014A32AD12F2900695C2C;
+					};
+				};
+			};
+			buildConfigurationList = 6D40149F2AD12F2900695C2C /* Build configuration list for PBXProject "MamaKarte" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D40149B2AD12F2900695C2C;
+			productRefGroup = 6D4014A52AD12F2900695C2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D4014A32AD12F2900695C2C /* MamaKarte */,
+				6D4014B32AD12F2900695C2C /* MamaKarteTests */,
+				6D4014BD2AD12F2900695C2C /* MamaKarteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D4014A22AD12F2900695C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4014AF2AD12F2900695C2C /* Preview Assets.xcassets in Resources */,
+				6D4014AC2AD12F2900695C2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4014B22AD12F2900695C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4014BC2AD12F2900695C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D4014A02AD12F2900695C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4014AA2AD12F2900695C2C /* ContentView.swift in Sources */,
+				6D4014A82AD12F2900695C2C /* MamaKarteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4014B02AD12F2900695C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4014B92AD12F2900695C2C /* MamaKarteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4014BA2AD12F2900695C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4014C52AD12F2900695C2C /* MamaKarteUITestsLaunchTests.swift in Sources */,
+				6D4014C32AD12F2900695C2C /* MamaKarteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D4014B62AD12F2900695C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D4014A32AD12F2900695C2C /* MamaKarte */;
+			targetProxy = 6D4014B52AD12F2900695C2C /* PBXContainerItemProxy */;
+		};
+		6D4014C02AD12F2900695C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D4014A32AD12F2900695C2C /* MamaKarte */;
+			targetProxy = 6D4014BF2AD12F2900695C2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D4014C62AD12F2900695C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D4014C72AD12F2900695C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D4014C92AD12F2900695C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MamaKarte/Preview Content\"";
+				DEVELOPMENT_TEAM = DQQRHYJ3R5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.takehisa.MamaKarte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D4014CA2AD12F2900695C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MamaKarte/Preview Content\"";
+				DEVELOPMENT_TEAM = DQQRHYJ3R5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.takehisa.MamaKarte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D4014CC2AD12F2900695C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQQRHYJ3R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.takehisa.MamaKarteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamaKarte.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MamaKarte";
+			};
+			name = Debug;
+		};
+		6D4014CD2AD12F2900695C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQQRHYJ3R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.takehisa.MamaKarteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamaKarte.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MamaKarte";
+			};
+			name = Release;
+		};
+		6D4014CF2AD12F2900695C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQQRHYJ3R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.takehisa.MamaKarteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MamaKarte;
+			};
+			name = Debug;
+		};
+		6D4014D02AD12F2900695C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQQRHYJ3R5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = naoki.takehisa.MamaKarteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MamaKarte;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D40149F2AD12F2900695C2C /* Build configuration list for PBXProject "MamaKarte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4014C62AD12F2900695C2C /* Debug */,
+				6D4014C72AD12F2900695C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D4014C82AD12F2900695C2C /* Build configuration list for PBXNativeTarget "MamaKarte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4014C92AD12F2900695C2C /* Debug */,
+				6D4014CA2AD12F2900695C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D4014CB2AD12F2900695C2C /* Build configuration list for PBXNativeTarget "MamaKarteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4014CC2AD12F2900695C2C /* Debug */,
+				6D4014CD2AD12F2900695C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D4014CE2AD12F2900695C2C /* Build configuration list for PBXNativeTarget "MamaKarteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4014CF2AD12F2900695C2C /* Debug */,
+				6D4014D02AD12F2900695C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D40149C2AD12F2900695C2C /* Project object */;
+}
